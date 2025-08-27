@@ -11,7 +11,7 @@ const HomePage = () => {
             <div id = "stats-container"> 
                 <div className = "stats">
                     <h1>60%</h1>
-                    <h3>of people unaware of their condition</h3>
+                    <h3>of people are unaware of their condition</h3>
                 </div>
                 <div className = "stats">
                     <h1>20M</h1>

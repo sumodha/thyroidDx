@@ -15,7 +15,7 @@
 
 }
 .nav a{
-    font-size: 15px;
+    font-size: 17px;
     font-family: 'Segoe UI';
     text-decoration: none;
     color:white;
@@ -23,7 +23,7 @@
     font-weight: 500;
     margin: 0px;
     display: block;
-    padding: 10px;
+    padding: 15px;
 }
 
 .nav a:active{

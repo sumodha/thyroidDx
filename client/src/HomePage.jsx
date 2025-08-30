@@ -1,12 +1,16 @@
 import './HomePage.css';
+import {useState} from 'react';
+import Popup from './PopUp';
 
 const HomePage = () => {
+    const [openPopup, setOpenPopup] = useState(false);
+
     return ( 
         <div id = "homepage">
             <div id="heading"> 
             <h1>ThyroidDx</h1>
-            <h2>Decode your bloodwork. Detect Thyroid disease.</h2>
-            <button> Start Assessment</button>
+            <h2>Decode your bloodwork. Detect thyroid disease.</h2>
+            <button onClick= {() => setOpenPopup(true)}> Start Assessment</button>
             </div>
             <div id = "stats-container"> 
                 <div className = "stats">
@@ -22,6 +26,7 @@ const HomePage = () => {
                     <h3>of Americans will develop a thyroid condition</h3>
                 </div>
             </div>
+            {openPopup && <Popup setOpenPopup = {setOpenPopup}></Popup>}
         </div>
     );
 }

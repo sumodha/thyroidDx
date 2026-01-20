@@ -7,9 +7,9 @@ const NavBar = () => {
     return (
         <nav className="nav">
         <ul>
-        <li> <a href = "/">home</a></li>
-        <li><a href="/about">about us</a></li>
-        <li><a href="/resources">resources</a></li>
+        <li> <Link href = "/">home</Link></li>
+        <li><Link href="/about">about us</Link></li>
+        <li><Link href="/resources">resources</Link></li>
         </ul>
         </nav>
         

@@ -1,6 +1,6 @@
 import './HomePage.css';
 import {useState} from 'react';
-import Popup from './PopUp.jsx';
+import Popup from './Popup.jsx';
 
 const HomePage = () => {
     const [openPopup, setOpenPopup] = useState(false);

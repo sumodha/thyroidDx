@@ -97,7 +97,7 @@ const Popup = ({setOpenPopup}) => {
         <div id="Popup-container">
         {
             submitted  ? 
-            ( loading? (<><h2 className="diagnosis">Loading...</h2></>): (<>
+            ( loading? (<><h2 className="diagnosis">Predicting using ML model...</h2></>): (<>
             <h2 className="diagnosis">Your Diagnosis: </h2>
             <h2 className="diagnosis">{diagnosis}</h2>
             <button type = "button" onClick = {handleCancel}>Close</button>

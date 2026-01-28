@@ -5,7 +5,7 @@ from flask_cors import CORS
 import pandas as pd
 
 app = Flask(__name__)
-CORS(app, origins=["http://localhost:5173"]) ## allowing data to come from frontend
+CORS(app, origins=["http://localhost:5173", "https://thyroiddx.onrender.com"]) ## allowing data to come from frontend
 
 
 with open(r".\ml\model.pkl", "rb") as f:
